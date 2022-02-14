@@ -6,19 +6,19 @@ function Navigation() {
       <Container className="nav__cont" fluid>
         <Navbar.Brand
           className="navBrand"
-          style={{ color: "#0070f3" }}
+          style={{ color: "rgb(27 107 201)" }}
           href="/"
         >
-          Jumwoo
+          JUMWOO
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto nav_items">
             <Nav.Link href="/">About</Nav.Link>
             <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav>
-          <Nav className="ml-auto">
-            <Nav.Link href="/">link</Nav.Link>
+          <Nav className="ml-auto nav_items">
+            <Nav.Link href="http://www.jumwoophoto.com/">Shop</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

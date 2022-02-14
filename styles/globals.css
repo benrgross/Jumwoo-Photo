@@ -65,9 +65,13 @@ a {
   cursor: pointer;
 }
 
+.nav_items {
+  margin-left: 1.5rem;
+  font-size: 18px;
+}
 .nav__cont {
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 5rem;
+  margin-right: 7rem;
 }
 .navBrand {
   font-size: 24px;
@@ -77,7 +81,8 @@ a {
   margin-bottom: 4rem;
 }
 
-.form__label {
+.contact__form {
+  margin-bottom: 5rem;
 }
 
 .recaptcha {
