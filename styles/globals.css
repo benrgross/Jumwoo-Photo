@@ -56,6 +56,10 @@ a {
   width: 60%;
 }
 
+.form__label {
+  margin-top: 1rem;
+}
+
 .closeIcon {
   top: 23.5rem;
   margin-right: 1rem;

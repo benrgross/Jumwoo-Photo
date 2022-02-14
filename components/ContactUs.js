@@ -1,10 +1,12 @@
-import React, { useRef } from "react";
-import { Row, Col, Container, Form, Button } from "react-bootstrap";
+import React, { useRef, useState } from "react";
+import { Row, Col, Container, Form, Button, Alert } from "react-bootstrap";
 import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from "@emailjs/browser";
 
 export const ContactUs = () => {
   const form = useRef();
+  const [alertSuccess, setAlertSuccess] = useState(false);
+  const [alertFailure, setAlertFailure] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,15 +25,30 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
+          if (result.text == "OK") {
+            setAlertSuccess(true);
+          }
+          document.getElementsByClassName("contact__form").reset();
         },
         (error) => {
           console.log(error.text);
+          setAlertFailure(true);
         }
       );
   };
 
   return (
     <Container className="contact__cont">
+      {alertSuccess ? (
+        <Alert variant="success">Email was sent successfully!</Alert>
+      ) : (
+        ""
+      )}
+      {alertFailure ? (
+        <Alert variant="success">Sorry the email did not go through</Alert>
+      ) : (
+        ""
+      )}
       <Form className="contact__form" onSubmit={sendEmail} ref={form}>
         <Row className="mb-3">
           <Form.Group as={Col} className="mb-3" controlId="formGridEmail">
