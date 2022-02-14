@@ -45,11 +45,6 @@ const images = [
 
   {
     url: "https://previews.dropbox.com/p/thumb/ABcSNR02YLxMVr5kXpjRx9QugiiZJWDUybYGAig1dxncqx5aLScnDKUqgZe1byv0l3bg7vtQSxgkviwTpR4cnwk-qbP84pP3haRPjjbq2EUjUbQLUn2aK2FZAAkcxrJuuQzWbCYG_0hilq8TucLgzvY4DicsTojhlcg1wY-XdKIhdTWETgwz1Yba20C6Q85AIkXqyBnCraVN1CO2r3SCWTCl2mS9b2BxIagjSOV-YGU-y_DIj3L637EF2MczN5RSRq7yn4Jn9hWKuSUTEGzsL6NrBY4psF58k8tZzdSaaj0MkMMZ5XnBV173d_IbYkFLakRmqkZn4ObiLV8if24kRaGOZfSIE0dvzGkyS5l-EH6lEg/p.jpeg",
-    alt: "Sunny Dining Room and Patio",
-  },
-
-  {
-    url: "https://previews.dropbox.com/p/thumb/ABcSNR02YLxMVr5kXpjRx9QugiiZJWDUybYGAig1dxncqx5aLScnDKUqgZe1byv0l3bg7vtQSxgkviwTpR4cnwk-qbP84pP3haRPjjbq2EUjUbQLUn2aK2FZAAkcxrJuuQzWbCYG_0hilq8TucLgzvY4DicsTojhlcg1wY-XdKIhdTWETgwz1Yba20C6Q85AIkXqyBnCraVN1CO2r3SCWTCl2mS9b2BxIagjSOV-YGU-y_DIj3L637EF2MczN5RSRq7yn4Jn9hWKuSUTEGzsL6NrBY4psF58k8tZzdSaaj0MkMMZ5XnBV173d_IbYkFLakRmqkZn4ObiLV8if24kRaGOZfSIE0dvzGkyS5l-EH6lEg/p.jpeg",
     alt: "Sunny Dining Room And Patio",
   },
 
@@ -59,28 +54,13 @@ const images = [
   },
 
   {
-    url: "https://previews.dropbox.com/p/thumb/ABejFiGIzN-dpR-dWsCj-D6VSEIfY5DcK5GomxCjc0YuTY54KofrNFoSCaIJQfnWxYLZVha41SUFWgYqwZGoYTFNmxP6hx7b3deIAnAngcOy1Ykw8YPrKaF9DD9SR1msoeUKuaP3KQsJ2OgKTfOAUGjELwFkdtqZKq0HeH-bqP8mcbloV2hu2ez1Kw1D_ubjO5Lg8S-QsKh4PQ3qjAzM2DBCml_nOdhUgHE6ocNVhJzcLaToihxWjH5c-k1Wp2_JalWSvmsS_heEYlOMQcHZTat4vzUr0A39j7M7a__mLYBgrSY0vDOQ4KKVVKCU1Mb-3Q1HsVPIcdK3xjkDQik_0PwYufRQt6r-sTqU1CzNl_lX-A/p.jpeg",
-    alt: "Venice Beach Resteraunt",
-  },
-
-  {
     url: "https://previews.dropbox.com/p/thumb/ABf_6cfR9Rv79Pq4D3EMydO_kkdryI4A6zY1qN6tMdXF6lCMFrX8avqn9kpVWYi2c8Oldi0SUt3SOr6msmi7YzoMsGPkc1OJnhs8v_OhWYwR7PqGTH5Bay7bzcfxN0PIad4uoTOgGPF4MEP9gr-2Zy2b1brIBrVzFyhirptix4la9u0bBmlbSKul3TLlhoeH-xOpG5pVC3Lo98GVCyJ054YmMrl9VKzUOWr8AbGLAdzfDbfYMTIXSjIcHbm0oIMjTfFxET4CkD6gasdeJSsblPhgqBm7_FVLLb2ZsGRB2aBsUbtXV5HkQETzu3hy2ic1AH7ooLCjbDzYv9mUFYV1_5CX_U7HT5NRORLgyF5SKzkc5w/p.jpeg",
     alt: "Kitchen Leading Into Bedroom",
   },
 
   {
-    url: "https://previews.dropbox.com/p/thumb/ABelgrgYQJG1s7oPefj-A4dju75gfsLbNGondDmvtv8sD9Wo6Um4FDBoHpuGgGZmrRhuyUJeIADtrRW3YXFJrwIZaCWqYxuIJQhse0QV6WizKiVxk664S6UOCNKYIVJe8e4-gcSUG0Go61F-XYJLqGW_PBKSj_Qjh8zPbbEZnPEXY33zLNIQUQgB69TEB_wxg5UynIlnhEpb0Bwktr6L5OuKQZ33M6PsZL5LXTttm0FUMZbcK8vmymDIYa_9-LDJWs5_YmfjH6oFORRXvEhGJv255jeK_yE044FHRjKw0a0u4DcqcLaJLqjVJQWqS3BqAyw7D9dHu_ecxB7Sli3KRKxyBOe6Q6zx8IASVyeXlFhVkuHtcmT4r_JxwMmUHhUJzLq6-adrbW82xwk5Nv4p-dAsuhWtkaO3nmqa8AsePt_JdQ/p.jpeg",
-    alt: "Arial Photograph of Variety Building",
-  },
-
-  {
     url: "https://previews.dropbox.com/p/thumb/ABeJx4KxOCPVdQ120RApx7zm645_4tOJI91tQYrdx-aBc6kTNS7Huwx6-ON-7p9KCAOS6DQCyvbJvXH63tqRtrIMSPSAxEWmCiDOJ1oGiPN4_szKIPzkKF-UL8E1sj0Jxu82UzSyeNCe1NXWwo98KH-wfc7yFtxJMvQaQRF6HSbLLfPnVYTGJIBxzoUC98oDGDZgxqqLtxlX7uGiMDZyG8habRQRvCQXEF0U_ZzFzOaazTQOQwARu58W6bExilyLgx7xeoErN0Bl0D2IF6ebn7TZaQFk7NzCsgzfEC37YsAOd6fN8oo2N88hSvj5jkupa71sN9_SPs1bp_v_j1_u-d1N5g_aMwNxrkUxa5Db13WfCH9dG2wC06JA2kiP9CbMNLZWPBb9JjQRppC73aPUWzirhEJAaUiPxXB9ipCTFSj-eg/p.jpeg",
     alt: "Moon House Resteraunt",
-  },
-
-  {
-    url: "https://previews.dropbox.com/p/thumb/ABe8rYb1koCZGlQUbBDNfsr6xAgVcni3lVpb52mAN3ySQM5ttctoTof82dHv_qjZsNn3T_hnYeMJznaTS2-7rTjxin7Kms-4dtUty95xZj6WHWKPDwZysxnaWRQDTquIlRyXtrA3qW08KmKQhKZqJg-Y9tu8rWFLdFyTs2frwrZ_DyBuwOGK4Lqn7-257PzP6UXWijsxop5GcitS3YLpNi6lh_lr14eJRPu2Bx0__qmfl0Fd1WucrOoZfuFmh5k9b1vG3K-EToDH4lALCICsq2UT2WUaT7dvwDbFSBqmfinsg7vzQCWmrAMyjgQeJiT_IP8rcjXwzNUxajIN3wcx3F5Vec3k_YJeSIOHYJPujmlJacNqi25wup5nwuatpJNcC7kXy0DlT4r8TX0n4wf_d32JQosuK8jiQ3zs19oykRdInw/p.jpeg",
-    alt: "Arial image of Stripmall",
   },
 
   {
@@ -99,18 +79,8 @@ const images = [
   },
 
   {
-    url: "https://previews.dropbox.com/p/thumb/ABdmT6NUVp-9XgsJRM5NDMP2BBM6NlLNJQqM4HGBQMpzE-qCG6GJ8S-99eodlLVlCAavL-W7MLeVKFKy7BAX4Q4HQNDexDMddRFj5mQFj30rYh1mSHqiDOjmh0bY2oqxYNSPdlv9W-zVrey699TGQrVJ5985ikl7GRFOlNYeYNSPmh_NKGG27B47jMWblQ-gjiSLDbJb3XlEsl6xSdzn2mWKOWGSXHugKnzJduvlsw-JtgOG6qdNv-seO_HpdO6o-wUoMii3u8AZ1GBVuijaA_0FuTNw4xsjMM8lS-Wvv74cJ9IQctcDd7eehKGIt3LXHPD4Z88vIGmlB_GDFxxd1B8IdA9rUzavEs_ECRy9ri3Qb0sZVokOqFL0k6jHdthpX7pnCPr8njEfg4PYn9L6q0zQoj03t7mozlYB175yy7eAOQ/p.jpeg",
-    alt: "image of Office Building Roof",
-  },
-
-  {
     url: "https://previews.dropbox.com/p/thumb/ABflSSR-n7mrgNd8W1r8jy21DVX3nHI_jfF5BHnGC3z_kwL2OLFs-jHIUXq_rS6qT7nEK57Ma-2mmggSGSHtO_H4JmOLzjRLsX0YzWiu4bwav_xDOSF7yOSdHnyJPmOq-fJ1vCuIYZWgS6AhQKQTxp0i1NVR7eELKf1IjgiNjq7fBzv_4k-tQ293Ykezx5f5nRwJXmofMuyaBlADNGIShWQLRDYsEDkMYNwRNyNnLDc4Fp2rUjb2mu7WtLwpjnuf6UqmA_jluzsq6F72Nave7vvtrZ9m3fLVnQCUWVzQW4Uch0fiYW2lKPNxCHS6qMoRzarC8pUnoWTsDiEiem2J9bSwwyJl_q3CWL87YfcSSulkCA/p.jpeg",
     alt: "image of Commercial Building",
-  },
-
-  {
-    url: "https://previews.dropbox.com/p/thumb/ABdX6QT1kFDWBi7GflHj9vAe2TFkrG7KGs-w0nl019wVvguwc4ans6QFke94NKUuwEjf2iH1aue9GguQ54Guetd2xKjau9IvV5Gol3tvU0ZVoDq2vJY8ZTYRf6sxoQgterFK52PAONHYC5zvwHNgxvD75vrf3dmfhVNgbP0ZMRYGy6w5zlSWyqP-tBIWaLvaTMrEgYpK-wpOF05xP_zV9zaxhPaMIRvVrpgbr6TxCe50Y-DRZduTuxRFWzKf0Y--a1K_QPcY9BLlGA5Wa_cG1OJmdM6zMmTzS5R7YUKeiXVcDGfDvQV50M8qdZykl-yLADlncMJZsEiYJTnDhFIlUEKNCsgIvop3uL_yT6uSL-FXqQGSRWsQK2t43UP0Zv3N85yQMqMED_25KLmwLIoy_c6kV_4H8ttQN40_ISLnHqUAEZNNVkK0kTaVO-YzvqshxHo/p.jpeg",
-    alt: "image of Commercial Building Roof",
   },
 
   {
@@ -210,11 +180,6 @@ const images = [
 
   {
     url: "https://previews.dropbox.com/p/thumb/ABdL8WZLX0ZurR_EVF5KzLaB8IuYNGmqecPn6m6jhvSVoNtcVm3a0yOIlIEZdvSpLajNLsUdT6r1io57NiibMGqxMrafJzrQL1fBYB0WjC-jq_tT1A3ArujB_iyvGgWQfyFZKckNs4E6_UyfdqjEn7rrbqjH_UhdpWMqg6FX0NAZHzx-Ehg0PFXWa-U4BCf5QrCa7Ekp1wBieA7r69WiU6DUp5bRFB5EcXFpDWtu9StilUqI5NL7sF0GX-bCxd9tcZ_mA7dcaUey8LBnHnBeeVI7v5U-QGtHpVeR1fTCxd-TimOlQvFmRfk74J4lk2HEu2_QIAnKQ7LUj55c_vnCd_-gHNJ1pwkJBhYx5XA5iy3HHA/p.jpeg",
-    alt: "Bedroom",
-  },
-
-  {
-    url: "https://previews.dropbox.com/p/thumb/ABdL8WZLX0ZurR_EVF5KzLaB8IuYNGmqecPn6m6jhvSVoNtcVm3a0yOIlIEZdvSpLajNLsUdT6r1io57NiibMGqxMrafJzrQL1fBYB0WjC-jq_tT1A3ArujB_iyvGgWQfyFZKckNs4E6_UyfdqjEn7rrbqjH_UhdpWMqg6FX0NAZHzx-Ehg0PFXWa-U4BCf5QrCa7Ekp1wBieA7r69WiU6DUp5bRFB5EcXFpDWtu9StilUqI5NL7sF0GX-bCxd9tcZ_mA7dcaUey8LBnHnBeeVI7v5U-QGtHpVeR1fTCxd-TimOlQvFmRfk74J4lk2HEu2_QIAnKQ7LUj55c_vnCd_-gHNJ1pwkJBhYx5XA5iy3HHA/p.jpeg",
     alt: "Kitchen",
   },
 
@@ -266,6 +231,26 @@ const images = [
   {
     url: "https://previews.dropbox.com/p/thumb/ABfVK6VwTjzWnKlSmphIfVThFwrONsuXQm2-DCXw0_fo3DeEK6Ne2tW4U4MaEJ9azziD8iHqg1-lZwc1DPrIzhgGL5wQCvdtxVcCSJwk0nwODMmnoLrtrmjSVyIX10LpndHQig3jCpDzfh0etnyOREMh-W5RJ4AiPKL9rJteKVnKna2LPYCUlr0qYaYKRfcDtjUM0WXUSPuZ5CpfBMT8cal6vk_cktDcDk1VZrFPkJ7NNvqtwPxzLKvq-rbJ7Oq1h7pm13zWFbv4IQP1UrlsAsIQiXoxcOSN9JIoVAlDv5f-o2w_KARRrT79VQ1aMN8ifBHCsju_JLc_SIWy1O2SX1clKle34m0NUJA3mJfpfETUsQ/p.jpeg",
     alt: "view of art gallery breezeway",
+  },
+  {
+    url: "https://previews.dropbox.com/p/thumb/ABdX6QT1kFDWBi7GflHj9vAe2TFkrG7KGs-w0nl019wVvguwc4ans6QFke94NKUuwEjf2iH1aue9GguQ54Guetd2xKjau9IvV5Gol3tvU0ZVoDq2vJY8ZTYRf6sxoQgterFK52PAONHYC5zvwHNgxvD75vrf3dmfhVNgbP0ZMRYGy6w5zlSWyqP-tBIWaLvaTMrEgYpK-wpOF05xP_zV9zaxhPaMIRvVrpgbr6TxCe50Y-DRZduTuxRFWzKf0Y--a1K_QPcY9BLlGA5Wa_cG1OJmdM6zMmTzS5R7YUKeiXVcDGfDvQV50M8qdZykl-yLADlncMJZsEiYJTnDhFIlUEKNCsgIvop3uL_yT6uSL-FXqQGSRWsQK2t43UP0Zv3N85yQMqMED_25KLmwLIoy_c6kV_4H8ttQN40_ISLnHqUAEZNNVkK0kTaVO-YzvqshxHo/p.jpeg",
+    alt: "image of Commercial Building Roof",
+  },
+  {
+    url: "https://previews.dropbox.com/p/thumb/ABdmT6NUVp-9XgsJRM5NDMP2BBM6NlLNJQqM4HGBQMpzE-qCG6GJ8S-99eodlLVlCAavL-W7MLeVKFKy7BAX4Q4HQNDexDMddRFj5mQFj30rYh1mSHqiDOjmh0bY2oqxYNSPdlv9W-zVrey699TGQrVJ5985ikl7GRFOlNYeYNSPmh_NKGG27B47jMWblQ-gjiSLDbJb3XlEsl6xSdzn2mWKOWGSXHugKnzJduvlsw-JtgOG6qdNv-seO_HpdO6o-wUoMii3u8AZ1GBVuijaA_0FuTNw4xsjMM8lS-Wvv74cJ9IQctcDd7eehKGIt3LXHPD4Z88vIGmlB_GDFxxd1B8IdA9rUzavEs_ECRy9ri3Qb0sZVokOqFL0k6jHdthpX7pnCPr8njEfg4PYn9L6q0zQoj03t7mozlYB175yy7eAOQ/p.jpeg",
+    alt: "image of Office Building Roof",
+  },
+  {
+    url: "https://previews.dropbox.com/p/thumb/ABe8rYb1koCZGlQUbBDNfsr6xAgVcni3lVpb52mAN3ySQM5ttctoTof82dHv_qjZsNn3T_hnYeMJznaTS2-7rTjxin7Kms-4dtUty95xZj6WHWKPDwZysxnaWRQDTquIlRyXtrA3qW08KmKQhKZqJg-Y9tu8rWFLdFyTs2frwrZ_DyBuwOGK4Lqn7-257PzP6UXWijsxop5GcitS3YLpNi6lh_lr14eJRPu2Bx0__qmfl0Fd1WucrOoZfuFmh5k9b1vG3K-EToDH4lALCICsq2UT2WUaT7dvwDbFSBqmfinsg7vzQCWmrAMyjgQeJiT_IP8rcjXwzNUxajIN3wcx3F5Vec3k_YJeSIOHYJPujmlJacNqi25wup5nwuatpJNcC7kXy0DlT4r8TX0n4wf_d32JQosuK8jiQ3zs19oykRdInw/p.jpeg",
+    alt: "Arial image of Stripmall",
+  },
+  {
+    url: "https://previews.dropbox.com/p/thumb/ABelgrgYQJG1s7oPefj-A4dju75gfsLbNGondDmvtv8sD9Wo6Um4FDBoHpuGgGZmrRhuyUJeIADtrRW3YXFJrwIZaCWqYxuIJQhse0QV6WizKiVxk664S6UOCNKYIVJe8e4-gcSUG0Go61F-XYJLqGW_PBKSj_Qjh8zPbbEZnPEXY33zLNIQUQgB69TEB_wxg5UynIlnhEpb0Bwktr6L5OuKQZ33M6PsZL5LXTttm0FUMZbcK8vmymDIYa_9-LDJWs5_YmfjH6oFORRXvEhGJv255jeK_yE044FHRjKw0a0u4DcqcLaJLqjVJQWqS3BqAyw7D9dHu_ecxB7Sli3KRKxyBOe6Q6zx8IASVyeXlFhVkuHtcmT4r_JxwMmUHhUJzLq6-adrbW82xwk5Nv4p-dAsuhWtkaO3nmqa8AsePt_JdQ/p.jpeg",
+    alt: "Arial Photograph of Variety Building",
+  },
+  {
+    url: "https://previews.dropbox.com/p/thumb/ABejFiGIzN-dpR-dWsCj-D6VSEIfY5DcK5GomxCjc0YuTY54KofrNFoSCaIJQfnWxYLZVha41SUFWgYqwZGoYTFNmxP6hx7b3deIAnAngcOy1Ykw8YPrKaF9DD9SR1msoeUKuaP3KQsJ2OgKTfOAUGjELwFkdtqZKq0HeH-bqP8mcbloV2hu2ez1Kw1D_ubjO5Lg8S-QsKh4PQ3qjAzM2DBCml_nOdhUgHE6ocNVhJzcLaToihxWjH5c-k1Wp2_JalWSvmsS_heEYlOMQcHZTat4vzUr0A39j7M7a__mLYBgrSY0vDOQ4KKVVKCU1Mb-3Q1HsVPIcdK3xjkDQik_0PwYufRQt6r-sTqU1CzNl_lX-A/p.jpeg",
+    alt: "Venice Beach Resteraunt",
   },
 ];
 

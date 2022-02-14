@@ -25,3 +25,15 @@ a {
 .header__logo-img {
   width: 50%;
 }
+
+.gallery__img-cont {
+  margin-bottom: 2rem;
+}
+
+.carousel_cont {
+  width: 50%;
+}
+
+.carousel-componet {
+  width: 60%;
+}

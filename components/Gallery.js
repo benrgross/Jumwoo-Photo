@@ -4,13 +4,9 @@ import GalleryImage from "./GalleryImage";
 
 function Gallery({ images }) {
   return (
-    <Container>
+    <Container fluid>
       <Row>
-        {images.map((image) => {
-          return (
-            <GalleryImage key={image.id} url={image.url} alt={image.alt} />
-          );
-        })}
+        <GalleryImage images={images} />
       </Row>
     </Container>
   );
