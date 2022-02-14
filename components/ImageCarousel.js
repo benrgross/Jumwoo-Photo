@@ -16,7 +16,7 @@ function ImageCarousel({ images, selectedIndex }) {
     >
       {images.map((image, i) => {
         return (
-          <Carousel.Item key={image.id}>
+          <Carousel.Item key={image.id} className="shadow" interval={9000}>
             <Image className="d-flex w-100" src={image.url} alt={image.alt} />
           </Carousel.Item>
         );

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Image, Col, Container } from "react-bootstrap";
+import { FaWindowClose } from "react-icons/fa";
 import ImageCarousel from "./ImageCarousel";
 
 function GalleryImage({ images }) {
@@ -11,19 +12,23 @@ function GalleryImage({ images }) {
     setIndex(selectedIndex);
     setCarousel(true);
   };
+
+  const closeCarousel = () => {
+    setCarousel(false);
+  };
   return (
     <>
       {!carousel ? (
         <>
           {images.map((image, i) => {
             return (
-              <Col md={6} sm={12} key={image.id}>
+              <Col md={4} sm={12} key={image.id}>
                 <div className="gallery__img-cont d-flex justify-content-center">
                   <Image
+                    className="gallery__img shadow-sm"
                     fluid
                     src={image.url}
                     alt={image.alt}
-                    className="gallery__img-thumb"
                     onClick={() => handleSelect(i)}
                   />
                 </div>
@@ -33,6 +38,14 @@ function GalleryImage({ images }) {
         </>
       ) : (
         <Container className="carousel_cont d-flex justify-content-center">
+          <a>
+            {" "}
+            <FaWindowClose
+              size={30}
+              className="closeIcon"
+              onClick={() => closeCarousel()}
+            />
+          </a>
           <ImageCarousel selectedIndex={index} images={images} />
         </Container>
       )}
