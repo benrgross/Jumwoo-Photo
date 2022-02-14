@@ -259,18 +259,8 @@ const images = [
   },
 
   {
-    url: "hhttps://previews.dropbox.com/p/thumb/ABfx6JiomsZSiaoMvBnX-LmGWxcs7PyI_Jj_hLXjzhbGFSmk3uEQcPHimZMflAqJXdqh6lbMJ2i7mPV2v5SlIKV7YciuX27OOwTIn9i9jicA9O3f5x0kp7La2V8UooK7dmCnSQSGtRBWJ-KlmxMEMbBgIb_VVlVPwoM8UL2bqFtSTGN4lMfMV5CC_P6lC_Zhn8BdDrCZifonK40SbAv31KY3L6coYKOpV-jSR6iQ6G7gmHDX7VDuOR4EQiqxq2GB8teQLVWLZ3wILDMChf_9DsV9SRQFn1yV1FLiAh6AnwpUzu-j6J05Q5moxrOCuB0TsVnfnKnFdp4In8NcapSl_SJ1AFNzSOd8FgtBHv8kiAUUAQ/p.jpeg",
+    url: "https://uca8aacd4a14664c802ea8b685b5.previews.dropboxusercontent.com/p/thumb/ABfraGvKhz-V-2ikBIxLM9KpAVLo2-1us3OYAoU_mArsD2bxHPYWZqQSuJSmm1upZ5gfmdI6CEoAlpF03su2WuYUnfwjfpmlm5FR7WpIBlsExE7bZv5W5kFxXC_cUauXu031UwZ3i935l0VacCpiY_37sjBfyr_wNxmkcYnSponIyEW08K_ZGkf57nBlcjj4ToGo-nfZNHFXnwdxaGPCLWXl6cxpeeAs1wsfYvnLtDQmmqiHfGbJQJynqW8vlyarpDXyNs-c9ieqJxtIWHlvIUf5sBGuit60uICaklub4-GbIiwthaWK2uHSCnv--tnGE7Xzs9rLKB9hpW9S8YOTM-tAuUmuQMnvge8kvEHss4mxlmtHw5_IYR3IQD37r3xRN_o/p.jpeg",
     alt: "view of skyscrapers from ground",
-  },
-
-  {
-    url: "https://previews.dropbox.com/p/thumb/ABfVK6VwTjzWnKlSmphIfVThFwrONsuXQm2-DCXw0_fo3DeEK6Ne2tW4U4MaEJ9azziD8iHqg1-lZwc1DPrIzhgGL5wQCvdtxVcCSJwk0nwODMmnoLrtrmjSVyIX10LpndHQig3jCpDzfh0etnyOREMh-W5RJ4AiPKL9rJteKVnKna2LPYCUlr0qYaYKRfcDtjUM0WXUSPuZ5CpfBMT8cal6vk_cktDcDk1VZrFPkJ7NNvqtwPxzLKvq-rbJ7Oq1h7pm13zWFbv4IQP1UrlsAsIQiXoxcOSN9JIoVAlDv5f-o2w_KARRrT79VQ1aMN8ifBHCsju_JLc_SIWy1O2SX1clKle34m0NUJA3mJfpfETUsQ/p.jpeg",
-    alt: "view of art gallery breezeway",
-  },
-
-  {
-    url: "https://previews.dropbox.com/p/thumb/ABfVK6VwTjzWnKlSmphIfVThFwrONsuXQm2-DCXw0_fo3DeEK6Ne2tW4U4MaEJ9azziD8iHqg1-lZwc1DPrIzhgGL5wQCvdtxVcCSJwk0nwODMmnoLrtrmjSVyIX10LpndHQig3jCpDzfh0etnyOREMh-W5RJ4AiPKL9rJteKVnKna2LPYCUlr0qYaYKRfcDtjUM0WXUSPuZ5CpfBMT8cal6vk_cktDcDk1VZrFPkJ7NNvqtwPxzLKvq-rbJ7Oq1h7pm13zWFbv4IQP1UrlsAsIQiXoxcOSN9JIoVAlDv5f-o2w_KARRrT79VQ1aMN8ifBHCsju_JLc_SIWy1O2SX1clKle34m0NUJA3mJfpfETUsQ/p.jpeg",
-    alt: "view of art gallery breezeway",
   },
 
   {
@@ -280,6 +270,7 @@ const images = [
 ];
 
 async function main() {
+  await prisma.image.deleteMany();
   await prisma.image.createMany({
     data: images,
   });
