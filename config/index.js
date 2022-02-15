@@ -2,4 +2,4 @@ const dev = process.env.NODE_ENV !== "production";
 
 export const server = dev
   ? "http://localhost:3000"
-  : "https://jumwoo-photos.vercel.app";
+  : "https://jumwoo-photo.vercel.app";
