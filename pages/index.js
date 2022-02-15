@@ -6,6 +6,7 @@ import Gallery from "../components/Gallery";
 
 export default function Home({ images }) {
   console.log("function", images);
+  console.log();
   return (
     <div>
       <Head>
@@ -27,14 +28,15 @@ export async function getStaticProps(context) {
   try {
     const { data } = await axios.get(`${server}/api/db/gallery`);
     const images = data;
+    console.log(data);
 
     return {
       props: {
         images,
       },
     };
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.log(e);
     return {
       props: {
         images: [],

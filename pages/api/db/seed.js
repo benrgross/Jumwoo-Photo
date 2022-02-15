@@ -255,12 +255,11 @@ export default async function handler(req, res) {
         },
       ];
 
-      await prisma.image.deleteMany();
-      await prisma.image.createMany({
+      const test = await prisma.image.createMany({
         data: images,
       });
 
-      res.status(200).send(images);
+      res.status(200).send(test);
     } catch (e) {
       res.status(400).send(e);
       console.error(e);
