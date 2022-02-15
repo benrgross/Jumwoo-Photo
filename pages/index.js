@@ -16,20 +16,20 @@ export default function Home({ images }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      {/* <main>
         <Gallery images={images} />
-      </main>
+      </main> */}
     </div>
   );
 }
 
-export async function getStaticProps(context) {
-  const { data } = await axios.get(`${server}/api/db/gallery`);
-  const images = data;
+// export async function getStaticProps(context) {
+//   const { data } = await axios.get(`${server}/api/db/gallery`);
+//   const images = data;
 
-  return {
-    props: {
-      images,
-    },
-  };
-}
+//   return {
+//     props: {
+//       images,
+//     },
+//   };
+// }
