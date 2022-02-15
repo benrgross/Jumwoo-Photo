@@ -24,7 +24,7 @@ export default function Home({ images }) {
 }
 
 export async function getStaticProps(context) {
-  const { data } = await axios.get(`/api/db/gallery`);
+  const { data } = await axios.get(`${server}/api/db/gallery`);
   const images = data;
 
   return {
