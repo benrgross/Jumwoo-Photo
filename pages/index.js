@@ -24,12 +24,17 @@ export default function Home({ images }) {
 }
 
 export async function getStaticProps(context) {
-  const { data } = await axios.get(`${server}/api/db/gallery`);
-  const images = data;
+  try {
+    const { data } = await axios.get(`${server}/api/db/gallery`);
+    const images = data;
+    console.log(data);
 
-  return {
-    props: {
-      images,
-    },
-  };
+    return {
+      props: {
+        images,
+      },
+    };
+  } catch (error) {
+    console.log(error);
+  }
 }

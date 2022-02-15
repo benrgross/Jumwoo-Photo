@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import GalleryImage from "./GalleryImage";
+import axios from "axios";
+import { server } from "../config/index";
 
 function Gallery({ images }) {
   return (
