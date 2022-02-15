@@ -4,7 +4,7 @@ const prisma = new PrismaClient();
 
 const images = [
   {
-    url: "https://previews.dropbox.com/p/thumb/ABcFtJkhNhn5trFjCRezdTTf6rKv90ufvpk5wZ5WI5O_Gqxf8s-xmIUX8ekrSb6kkQBVtSV5MVPGMIdxZGouj4b6iO3slpdLkUlmkl8ewdh7iQcQeRr3D8zdxduS7DKJO2k2JeEj_MZqvdwCplByHjwfQz1cl51RpbhMM_RvTuxP4MKHIruWpUyC4camGHM2-OEtOgZzxEMdHPmEUDnSy-Nvdx0Vfe8AN89Boy6h3hPxW2uEicq2YQ1f-ClYAv78gizflmS6-sA1HnCWP3oqZ_FkKsiIyOjcRPrG1iY-KC2ZL3W--jzufnl9GZskyGMO-CJKVt5Ps_ht3Pk9T3_s7LDtr3JkPbyImws7FYZE7WpZ8A/p.jpeg",
+    url: "https://www.dropbox.com/s/scmnljzw3znnmlr/JUMWOO_realestate1.jpg?dl=0",
     alt: "terrace with a view Los Angeles",
   },
 
@@ -224,7 +224,7 @@ const images = [
   },
 
   {
-    url: "https://uca8aacd4a14664c802ea8b685b5.previews.dropboxusercontent.com/p/thumb/ABfraGvKhz-V-2ikBIxLM9KpAVLo2-1us3OYAoU_mArsD2bxHPYWZqQSuJSmm1upZ5gfmdI6CEoAlpF03su2WuYUnfwjfpmlm5FR7WpIBlsExE7bZv5W5kFxXC_cUauXu031UwZ3i935l0VacCpiY_37sjBfyr_wNxmkcYnSponIyEW08K_ZGkf57nBlcjj4ToGo-nfZNHFXnwdxaGPCLWXl6cxpeeAs1wsfYvnLtDQmmqiHfGbJQJynqW8vlyarpDXyNs-c9ieqJxtIWHlvIUf5sBGuit60uICaklub4-GbIiwthaWK2uHSCnv--tnGE7Xzs9rLKB9hpW9S8YOTM-tAuUmuQMnvge8kvEHss4mxlmtHw5_IYR3IQD37r3xRN_o/p.jpeg",
+    url: "https://previews.dropbox.com/p/thumb/ABfx6JiomsZSiaoMvBnX-LmGWxcs7PyI_Jj_hLXjzhbGFSmk3uEQcPHimZMflAqJXdqh6lbMJ2i7mPV2v5SlIKV7YciuX27OOwTIn9i9jicA9O3f5x0kp7La2V8UooK7dmCnSQSGtRBWJ-KlmxMEMbBgIb_VVlVPwoM8UL2bqFtSTGN4lMfMV5CC_P6lC_Zhn8BdDrCZifonK40SbAv31KY3L6coYKOpV-jSR6iQ6G7gmHDX7VDuOR4EQiqxq2GB8teQLVWLZ3wILDMChf_9DsV9SRQFn1yV1FLiAh6AnwpUzu-j6J05Q5moxrOCuB0TsVnfnKnFdp4In8NcapSl_SJ1AFNzSOd8FgtBHv8kiAUUAQ/p.jpeg",
     alt: "view of skyscrapers from ground",
   },
 
