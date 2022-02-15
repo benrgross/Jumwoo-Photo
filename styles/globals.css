@@ -14,3 +14,106 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.navBrand-icon {
+  margin-left: 0px;
+}
+
+.nav__cont {
+  margin-left: 10rem;
+}
+.header__logo-cont {
+  /* background-image: url("/img/JUMWOO-MASTER-115.jpg"); */
+  background-size: 100% 100%;
+  height: 17rem;
+  margin-bottom: 3rem;
+}
+
+.header__logo-img {
+  width: 50%;
+}
+
+.gallery__img-cont {
+  margin-bottom: 2rem;
+}
+
+.gallery__img {
+  cursor: pointer;
+}
+
+.gallery__img:hover {
+  opacity: 0.7;
+  transition: 0.5s ease;
+}
+
+.carousel_cont {
+  margin-top: 2rem;
+  width: 100%;
+  margin-bottom: 7rem;
+}
+
+.carousel-componet {
+  width: 60%;
+}
+
+.form__label {
+  margin-top: 1rem;
+}
+
+.closeIcon {
+  top: 23.5rem;
+  margin-right: 1rem;
+  left: 18rem;
+  z-index: 1;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.nav_items {
+  margin-left: 1.5rem;
+  font-size: 18px;
+}
+.nav__cont {
+  margin-left: 5rem;
+  margin-right: 7rem;
+}
+.navBrand {
+  font-size: 24px;
+}
+
+.contact_callout {
+  margin-bottom: 4rem;
+}
+
+.contact__form {
+  margin-bottom: 5rem;
+}
+
+.recaptcha {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__logo-cont {
+    /* background-image: url("/img/JUMWOO-MASTER-115.jpg"); */
+    background-size: 100% 100%;
+    height: 6rem;
+    margin-bottom: 3rem;
+  }
+  .carousel_cont {
+    margin-top: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .carousel-componet {
+    width: 100%;
+  }
+  .closeIcon {
+    position: absolute;
+    top: 11.5rem;
+    left: 0.5rem;
+    z-index: 1;
+    opacity: 0.4;
+  }
+}
