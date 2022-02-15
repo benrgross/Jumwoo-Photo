@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
       res.status(200).send(images);
     } catch (error) {
-      res.status(400).send({ error: "server error" });
+      res.status(400).send(error);
       console.log(error);
     }
   }
