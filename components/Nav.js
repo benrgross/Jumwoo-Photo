@@ -5,7 +5,7 @@ function Navigation() {
     <Navbar bg="light" expand="lg">
       <Container className="nav__cont" fluid>
         <Navbar.Brand
-          className="navBrand"
+          className="navBrand jumwoo"
           style={{ color: "rgb(27 107 201)" }}
           href="/"
         >

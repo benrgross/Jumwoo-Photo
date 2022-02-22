@@ -116,4 +116,12 @@ a {
     z-index: 1;
     opacity: 0.4;
   }
+  .jumwoo {
+    display: none !important;
+  }
+
+  .nav__cont {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 }

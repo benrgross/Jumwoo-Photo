@@ -241,10 +241,7 @@ export default async function handler(req, res) {
           url: "https://previews.dropbox.com/p/thumb/ABdmT6NUVp-9XgsJRM5NDMP2BBM6NlLNJQqM4HGBQMpzE-qCG6GJ8S-99eodlLVlCAavL-W7MLeVKFKy7BAX4Q4HQNDexDMddRFj5mQFj30rYh1mSHqiDOjmh0bY2oqxYNSPdlv9W-zVrey699TGQrVJ5985ikl7GRFOlNYeYNSPmh_NKGG27B47jMWblQ-gjiSLDbJb3XlEsl6xSdzn2mWKOWGSXHugKnzJduvlsw-JtgOG6qdNv-seO_HpdO6o-wUoMii3u8AZ1GBVuijaA_0FuTNw4xsjMM8lS-Wvv74cJ9IQctcDd7eehKGIt3LXHPD4Z88vIGmlB_GDFxxd1B8IdA9rUzavEs_ECRy9ri3Qb0sZVokOqFL0k6jHdthpX7pnCPr8njEfg4PYn9L6q0zQoj03t7mozlYB175yy7eAOQ/p.jpeg",
           alt: "image of Office Building Roof",
         },
-        {
-          url: "https://previews.dropbox.com/p/thumb/ABe8rYb1koCZGlQUbBDNfsr6xAgVcni3lVpb52mAN3ySQM5ttctoTof82dHv_qjZsNn3T_hnYeMJznaTS2-7rTjxin7Kms-4dtUty95xZj6WHWKPDwZysxnaWRQDTquIlRyXtrA3qW08KmKQhKZqJg-Y9tu8rWFLdFyTs2frwrZ_DyBuwOGK4Lqn7-257PzP6UXWijsxop5GcitS3YLpNi6lh_lr14eJRPu2Bx0__qmfl0Fd1WucrOoZfuFmh5k9b1vG3K-EToDH4lALCICsq2UT2WUaT7dvwDbFSBqmfinsg7vzQCWmrAMyjgQeJiT_IP8rcjXwzNUxajIN3wcx3F5Vec3k_YJeSIOHYJPujmlJacNqi25wup5nwuatpJNcC7kXy0DlT4r8TX0n4wf_d32JQosuK8jiQ3zs19oykRdInw/p.jpeg",
-          alt: "Arial image of Stripmall",
-        },
+
         {
           url: "https://previews.dropbox.com/p/thumb/ABelgrgYQJG1s7oPefj-A4dju75gfsLbNGondDmvtv8sD9Wo6Um4FDBoHpuGgGZmrRhuyUJeIADtrRW3YXFJrwIZaCWqYxuIJQhse0QV6WizKiVxk664S6UOCNKYIVJe8e4-gcSUG0Go61F-XYJLqGW_PBKSj_Qjh8zPbbEZnPEXY33zLNIQUQgB69TEB_wxg5UynIlnhEpb0Bwktr6L5OuKQZ33M6PsZL5LXTttm0FUMZbcK8vmymDIYa_9-LDJWs5_YmfjH6oFORRXvEhGJv255jeK_yE044FHRjKw0a0u4DcqcLaJLqjVJQWqS3BqAyw7D9dHu_ecxB7Sli3KRKxyBOe6Q6zx8IASVyeXlFhVkuHtcmT4r_JxwMmUHhUJzLq6-adrbW82xwk5Nv4p-dAsuhWtkaO3nmqa8AsePt_JdQ/p.jpeg",
           alt: "Arial Photograph of Variety Building",
