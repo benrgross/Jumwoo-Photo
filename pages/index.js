@@ -13,7 +13,7 @@ export default function Home({ images }) {
         <title>Jumwoo Photography</title>
         <meta
           name="description"
-          content="Realestate Photography by Justin Wooly"
+          content="Realestate Photography by Justin Wooley"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

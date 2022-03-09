@@ -139,11 +139,6 @@ const images = [
   },
 
   {
-    url: "https://www.dropbox.com/s/073pgw0mx35too0/JUMWOO_realestate50.jpg?raw=1",
-    alt: "Arial View of Residential With Garden",
-  },
-
-  {
     url: "https://www.dropbox.com/s/nxrnuk68cd6qoxq/JUMWOO_realestate51.jpg?raw=1",
     alt: "Living Room With Mountain View",
   },
@@ -239,10 +234,6 @@ const images = [
   {
     url: "https://www.dropbox.com/s/eocx2053edj57b0/JUMWOO_realestate37.jpg?raw=1",
     alt: "image of Office Building Roof",
-  },
-  {
-    url: "https://www.dropbox.com/s/fg635nyjqgh68gn/JUMWOO_realestate22.jpg?raw=1",
-    alt: "Arial image of Stripmall",
   },
   {
     url: "https://www.dropbox.com/s/6wnjkfswgtxlbsw/JUMWOO_realestate17.jpg?raw=1",
